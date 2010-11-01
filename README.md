@@ -57,7 +57,7 @@ The keywords can be the following and accept values of the type described below
   <tr>
    <td>:dependencies</td>
    <td>List of project dependencies</td>
-   <td>Vector of (Vectors with group-id as symbol and version as string) OR (Vectors of strings)</td>
+   <td>Vector of (Vectors with group-id/artifact-id as symbol and version as string) OR (Vectors of strings). </td>
    <td>[[org.clojure/clojure "1.2.0"]] OR
        [["org.clojure/clojure-1.2.0"]]
    </td>
@@ -65,7 +65,7 @@ The keywords can be the following and accept values of the type described below
   <tr>
    <td>:dev-dependencies</td>
    <td>List of project development dependencies</td>
-   <td>Vector of (Vectors with group-id as symbol and version as string) OR (Vectors of strings)</td>
+   <td>Vector of (Vectors with group-id/artifact-id as symbol and version as string) OR (Vectors of strings)</td>
    <td>[[org.clojure/clojure "1.2.0"]] OR
        [["org.clojure/clojure-1.2.0"]]
    </td>
